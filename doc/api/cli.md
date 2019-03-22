@@ -136,7 +136,7 @@ Enable FIPS-compliant crypto at startup. (Requires Node.js to be built with
 
 ### `--es-module-specifier-resolution=mode`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 To be used in conjunction with `--experimental-modules`. Sets the resolution
@@ -150,7 +150,7 @@ Please see [customizing esm specifier resolution][] for example usage.
 
 ### `--experimental-json-modules`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 Enable experimental JSON support for the ES Module loader.
@@ -219,7 +219,7 @@ Both of the above may change in future updates, which will be breaking changes.
 
 ### `--heapsnapshot-signal=signal`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 Generates a heap snapshot each time the process receives the specified signal.
@@ -250,7 +250,7 @@ Specify ICU data load path. (Overrides `NODE_ICU_DATA`.)
 
 ### `--input-type=type`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 Used with `--experimental-modules`, this configures Node.js to interpret string
@@ -485,7 +485,7 @@ with crypto support (default).
 
 ### `--tls-max-v1.2`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 Set [`tls.DEFAULT_MAX_VERSION`][] to 'TLSv1.2'. Use to disable support for
@@ -493,7 +493,7 @@ TLSv1.3.
 
 ### `--tls-max-v1.3`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 Set default [`tls.DEFAULT_MAX_VERSION`][] to 'TLSv1.3'. Use to enable support
@@ -501,7 +501,7 @@ for TLSv1.3.
 
 ### `--tls-min-v1.0`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 Set default [`tls.DEFAULT_MIN_VERSION`][] to 'TLSv1'. Use for compatibility with
@@ -509,7 +509,7 @@ old TLS clients or servers.
 
 ### `--tls-min-v1.1`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 Set default [`tls.DEFAULT_MIN_VERSION`][] to 'TLSv1.1'. Use for compatibility
@@ -517,7 +517,7 @@ with old TLS clients or servers.
 
 ### `--tls-min-v1.3`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 Set default [`tls.DEFAULT_MIN_VERSION`][] to 'TLSv1.3'. Use to disable support
@@ -577,7 +577,7 @@ Track heap object allocations for heap snapshots.
 
 ### `--unhandled-rejections=mode`
 <!-- YAML
-added: REPLACEME
+added: v12.0.0
 -->
 
 By default all unhandled rejections trigger a warning plus a deprecation warning
